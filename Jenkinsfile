@@ -5,6 +5,8 @@ pipeline {
             steps {
                 
                 echo 'running dockerfile'
+                sh 'make check || true' 
+                junit '**/target/*.xml'
             }
         }
     }
