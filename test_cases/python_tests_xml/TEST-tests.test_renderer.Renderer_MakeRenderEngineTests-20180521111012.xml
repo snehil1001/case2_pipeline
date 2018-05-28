@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="tests.test_renderer.Renderer_MakeRenderEngineTests-20180521111012" tests="15" time="0.001">
+	<testcase classname="tests.test_renderer.Renderer_MakeRenderEngineTests" name="test__escape__has_access_to_original_unicode_subclass" time="0.000"/>
+	<testcase classname="tests.test_renderer.Renderer_MakeRenderEngineTests" name="test__escape__returns_unicode" time="0.000"/>
+	<testcase classname="tests.test_renderer.Renderer_MakeRenderEngineTests" name="test__escape__uses_renderer_escape" time="0.000"/>
+	<testcase classname="tests.test_renderer.Renderer_MakeRenderEngineTests" name="test__escape__uses_renderer_unicode" time="0.000"/>
+	<testcase classname="tests.test_renderer.Renderer_MakeRenderEngineTests" name="test__literal__handles_unicode" time="0.000"/>
+	<testcase classname="tests.test_renderer.Renderer_MakeRenderEngineTests" name="test__literal__returns_unicode" time="0.000"/>
+	<testcase classname="tests.test_renderer.Renderer_MakeRenderEngineTests" name="test__literal__uses_renderer_unicode" time="0.000"/>
+	<testcase classname="tests.test_renderer.Renderer_MakeRenderEngineTests" name="test__missing_tags__unknown_value" time="0.000"/>
+	<testcase classname="tests.test_renderer.Renderer_MakeRenderEngineTests" name="test__resolve_context" time="0.000"/>
+	<testcase classname="tests.test_renderer.Renderer_MakeRenderEngineTests" name="test__resolve_context__missing_tags_strict" time="0.000"/>
+	<testcase classname="tests.test_renderer.Renderer_MakeRenderEngineTests" name="test__resolve_partial__not_found" time="0.000"/>
+	<testcase classname="tests.test_renderer.Renderer_MakeRenderEngineTests" name="test__resolve_partial__not_found__missing_tags_strict" time="0.000"/>
+	<testcase classname="tests.test_renderer.Renderer_MakeRenderEngineTests" name="test__resolve_partial__not_found__partials_dict" time="0.000"/>
+	<testcase classname="tests.test_renderer.Renderer_MakeRenderEngineTests" name="test__resolve_partial__not_found__partials_dict__missing_tags_strict" time="0.000"/>
+	<testcase classname="tests.test_renderer.Renderer_MakeRenderEngineTests" name="test__resolve_partial__returns_unicode" time="0.000"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

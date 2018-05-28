@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="tests.test_context.ContextStackTestCase-20180521111012" tests="27" time="0.001">
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test__repr" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test__str" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_copy" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_create__context" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_create__dictionary" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_create__kwarg" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_create__none" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_create__object" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_create__precedence_keyword" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_create__precedence_positional" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_dot_notation__autocall" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_dot_notation__dict" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_dot_notation__missing_attr_or_key" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_dot_notation__missing_part_terminates_search" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_dot_notation__mixed_dict_and_obj" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_dot_notation__user_object" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_get__fallback" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_get__key_missing" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_get__key_present" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_get__precedence" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_get__single_dot" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_get__single_dot__missing" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_init__many_elements" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_init__no_elements" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_pop" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_push" time="0.000"/>
+	<testcase classname="tests.test_context.ContextStackTestCase" name="test_top" time="0.000"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

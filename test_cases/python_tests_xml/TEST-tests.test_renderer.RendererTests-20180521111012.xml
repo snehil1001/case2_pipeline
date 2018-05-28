@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="tests.test_renderer.RendererTests-20180521111012" tests="23" time="0.002">
+	<testcase classname="tests.test_renderer.RendererTests" name="test__make_loader__attributes" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test__make_loader__return_type" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test_custom_string_coercion_via_assignment" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test_custom_string_coercion_via_subclassing" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test_make_resolve_partial" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test_make_resolve_partial__unicode" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test_render__context" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test_render__context_and_kwargs" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test_render__context_and_kwargs__precedence" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test_render__kwargs_and_no_context" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test_render__kwargs_does_not_modify_context" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test_render__non_ascii_character" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test_render__nonascii_template" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test_render__object" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test_render__return_type" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test_render__str" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test_render__template_spec" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test_render__unicode" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test_render__view" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test_render_name" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test_render_path" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test_unicode__decode_errors" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererTests" name="test_unicode__string_encoding" time="0.000"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

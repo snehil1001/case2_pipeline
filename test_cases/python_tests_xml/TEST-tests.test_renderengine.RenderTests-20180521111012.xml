@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="tests.test_renderengine.RenderTests-20180521111012" tests="52" time="0.009">
+	<testcase classname="tests.test_renderengine.RenderTests" name="test__escape" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test__escape_does_not_call_literal" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test__escape_preserves_unicode_subclasses" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test__literal" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test__non_basestring__literal_and_escaped" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test__resolve_partial" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_comment__multiline" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_custom_delimiters__not_retroactive" time="0.001"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_custom_delimiters__sections" time="0.001"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_dot_notation" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_dot_notation__missing_part_terminates_search" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_dot_notation__multiple_levels" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_implicit_iterator__escaped" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_implicit_iterator__literal" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_interpolation__built_in_type__integer" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_interpolation__built_in_type__list" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_interpolation__built_in_type__string" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_interpolation__falsey__none" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_interpolation__falsey__zero" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_interpolation__nonascii_nonunicode" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_lambda__returning_nonascii_nonunicode" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_literal__in_partial" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_literal__in_section" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_literal__sigil" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_partial" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_partial__context_values" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_render" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_section__context_precedence" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_section__context_values" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_section__end_tag_mismatch" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_section__end_tag_with_no_start_tag" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_section__iterable" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_section__lambda" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_section__lambda__list" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_section__lambda__mixed_list" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_section__lambda__no_reinterpolation" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_section__lambda__not_on_context_stack" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_section__lambda__returning_nonascii_nonunicode" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_section__lambda__returning_nonstring" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_section__lambda__tag_in_output" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_section__list_referencing_outer_context" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_section__nested_truthy" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_section__nested_with_same_keys" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_section__nonascii_nonunicode" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_section__output_not_interpolated" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_section__string_values_not_lists" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_tag__output_not_interpolated" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_tag__output_not_interpolated__section" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_to_str" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_to_str__lambda" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_to_str__section_lambda" time="0.000"/>
+	<testcase classname="tests.test_renderengine.RenderTests" name="test_to_str__section_list" time="0.000"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

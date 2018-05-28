@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="tests.test_renderer.RendererInitTestCase-20180521111012" tests="17" time="0.001">
+	<testcase classname="tests.test_renderer.RendererInitTestCase" name="test_decode_errors" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererInitTestCase" name="test_decode_errors__default" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererInitTestCase" name="test_escape" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererInitTestCase" name="test_file_encoding" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererInitTestCase" name="test_file_encoding__default" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererInitTestCase" name="test_file_extension" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererInitTestCase" name="test_file_extension__default" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererInitTestCase" name="test_missing_tags" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererInitTestCase" name="test_missing_tags__default" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererInitTestCase" name="test_partials" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererInitTestCase" name="test_partials__default" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererInitTestCase" name="test_search_dirs__default" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererInitTestCase" name="test_search_dirs__list" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererInitTestCase" name="test_search_dirs__string" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererInitTestCase" name="test_string_encoding" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererInitTestCase" name="test_string_encoding__default" time="0.000"/>
+	<testcase classname="tests.test_renderer.RendererInitTestCase" name="test_escape__default" time="0.000">
+		<error message="'&amp;#x27;' != &quot;'&quot;" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/ubuntu/case2/pystache/pystache/tests/test_renderer.py", line 73, in test_escape__default
+    self.assertEqual(escape("'"), expected)
+AssertionError: '&#x27;' != "'"
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

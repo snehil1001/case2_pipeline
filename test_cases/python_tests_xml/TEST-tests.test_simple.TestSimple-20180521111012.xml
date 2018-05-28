@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="tests.test_simple.TestSimple-20180521111012" tests="7" time="0.002">
+	<testcase classname="tests.test_simple.TestSimple" name="test_callables" time="0.000"/>
+	<testcase classname="tests.test_simple.TestSimple" name="test_empty_context" time="0.000"/>
+	<testcase classname="tests.test_simple.TestSimple" name="test_looping_and_negation_context" time="0.000"/>
+	<testcase classname="tests.test_simple.TestSimple" name="test_nested_context" time="0.000"/>
+	<testcase classname="tests.test_simple.TestSimple" name="test_non_existent_value_renders_blank" time="0.000"/>
+	<testcase classname="tests.test_simple.TestSimple" name="test_rendering_partial" time="0.001"/>
+	<testcase classname="tests.test_simple.TestSimple" name="test_template_partial_extension" time="0.000"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="tests.test_examples.TestView-20180521111012" tests="12" time="0.004">
+	<testcase classname="tests.test_examples.TestView" name="test_comments" time="0.000"/>
+	<testcase classname="tests.test_examples.TestView" name="test_delimiters" time="0.002"/>
+	<testcase classname="tests.test_examples.TestView" name="test_double_section" time="0.000"/>
+	<testcase classname="tests.test_examples.TestView" name="test_escaping" time="0.000"/>
+	<testcase classname="tests.test_examples.TestView" name="test_literal" time="0.000"/>
+	<testcase classname="tests.test_examples.TestView" name="test_nested_context" time="0.000"/>
+	<testcase classname="tests.test_examples.TestView" name="test_nested_context_is_available_in_view" time="0.000"/>
+	<testcase classname="tests.test_examples.TestView" name="test_partial_in_partial_has_access_to_grand_parent_context" time="0.000"/>
+	<testcase classname="tests.test_examples.TestView" name="test_template_partial" time="0.000"/>
+	<testcase classname="tests.test_examples.TestView" name="test_template_partial_extension" time="0.000"/>
+	<testcase classname="tests.test_examples.TestView" name="test_unicode_input" time="0.000"/>
+	<testcase classname="tests.test_examples.TestView" name="test_unicode_output" time="0.000"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

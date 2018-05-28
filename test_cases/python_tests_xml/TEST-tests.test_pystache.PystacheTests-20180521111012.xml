@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="tests.test_pystache.PystacheTests-20180521111012" tests="16" time="0.002">
+	<testcase classname="tests.test_pystache.PystacheTests" name="test__section__non_false_value" time="0.000"/>
+	<testcase classname="tests.test_pystache.PystacheTests" name="test_basic" time="0.000"/>
+	<testcase classname="tests.test_pystache.PystacheTests" name="test_comments" time="0.000"/>
+	<testcase classname="tests.test_pystache.PystacheTests" name="test_even_less_basic" time="0.000"/>
+	<testcase classname="tests.test_pystache.PystacheTests" name="test_false_sections_are_hidden" time="0.000"/>
+	<testcase classname="tests.test_pystache.PystacheTests" name="test_ignores_misses" time="0.000"/>
+	<testcase classname="tests.test_pystache.PystacheTests" name="test_implicit_iterator" time="0.000"/>
+	<testcase classname="tests.test_pystache.PystacheTests" name="test_kwargs" time="0.000"/>
+	<testcase classname="tests.test_pystache.PystacheTests" name="test_later_list_section_with_escapable_character" time="0.000"/>
+	<testcase classname="tests.test_pystache.PystacheTests" name="test_less_basic" time="0.000"/>
+	<testcase classname="tests.test_pystache.PystacheTests" name="test_non_strings" time="0.000"/>
+	<testcase classname="tests.test_pystache.PystacheTests" name="test_render_zero" time="0.000"/>
+	<testcase classname="tests.test_pystache.PystacheTests" name="test_sections" time="0.000"/>
+	<testcase classname="tests.test_pystache.PystacheTests" name="test_surrounding_whitepace_not_altered" time="0.000"/>
+	<testcase classname="tests.test_pystache.PystacheTests" name="test_true_sections_are_shown" time="0.000"/>
+	<testcase classname="tests.test_pystache.PystacheTests" name="test_unicode" time="0.000"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

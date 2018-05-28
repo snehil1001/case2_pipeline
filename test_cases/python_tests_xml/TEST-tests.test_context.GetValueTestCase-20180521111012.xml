@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="tests.test_context.GetValueTestCase-20180521111012" tests="14" time="0.000">
+	<testcase classname="tests.test_context.GetValueTestCase" name="test_built_in_type__integer" time="0.000"/>
+	<testcase classname="tests.test_context.GetValueTestCase" name="test_built_in_type__list" time="0.000"/>
+	<testcase classname="tests.test_context.GetValueTestCase" name="test_built_in_type__string" time="0.000"/>
+	<testcase classname="tests.test_context.GetValueTestCase" name="test_dictionary__attributes_not_checked" time="0.000"/>
+	<testcase classname="tests.test_context.GetValueTestCase" name="test_dictionary__callable_not_called" time="0.000"/>
+	<testcase classname="tests.test_context.GetValueTestCase" name="test_dictionary__dict_subclass" time="0.000"/>
+	<testcase classname="tests.test_context.GetValueTestCase" name="test_dictionary__key_missing" time="0.000"/>
+	<testcase classname="tests.test_context.GetValueTestCase" name="test_dictionary__key_present" time="0.000"/>
+	<testcase classname="tests.test_context.GetValueTestCase" name="test_object__attribute_is_callable" time="0.000"/>
+	<testcase classname="tests.test_context.GetValueTestCase" name="test_object__attribute_missing" time="0.000"/>
+	<testcase classname="tests.test_context.GetValueTestCase" name="test_object__attribute_present" time="0.000"/>
+	<testcase classname="tests.test_context.GetValueTestCase" name="test_object__dict_like" time="0.000"/>
+	<testcase classname="tests.test_context.GetValueTestCase" name="test_object__non_built_in_type" time="0.000"/>
+	<testcase classname="tests.test_context.GetValueTestCase" name="test_object__property__raising_exception" time="0.000"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="tests.test_specloader.ViewTestCase-20180521111012" tests="13" time="0.003">
+	<testcase classname="tests.test_specloader.ViewTestCase" name="test_accessing_properties_on_parent_object_from_child_objects" time="0.000"/>
+	<testcase classname="tests.test_specloader.ViewTestCase" name="test_basic_method_calls" time="0.000"/>
+	<testcase classname="tests.test_specloader.ViewTestCase" name="test_complex" time="0.000"/>
+	<testcase classname="tests.test_specloader.ViewTestCase" name="test_hierarchical_partials_with_lambdas" time="0.000"/>
+	<testcase classname="tests.test_specloader.ViewTestCase" name="test_higher_order_lambda" time="0.000"/>
+	<testcase classname="tests.test_specloader.ViewTestCase" name="test_higher_order_replace" time="0.000"/>
+	<testcase classname="tests.test_specloader.ViewTestCase" name="test_higher_order_rot13" time="0.000"/>
+	<testcase classname="tests.test_specloader.ViewTestCase" name="test_inverted" time="0.000"/>
+	<testcase classname="tests.test_specloader.ViewTestCase" name="test_inverted_lists" time="0.000"/>
+	<testcase classname="tests.test_specloader.ViewTestCase" name="test_non_callable_attributes" time="0.000"/>
+	<testcase classname="tests.test_specloader.ViewTestCase" name="test_partials_with_lambda" time="0.000"/>
+	<testcase classname="tests.test_specloader.ViewTestCase" name="test_template_path_for_partials" time="0.000"/>
+	<testcase classname="tests.test_specloader.ViewTestCase" name="test_template_rel_directory" time="0.000"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

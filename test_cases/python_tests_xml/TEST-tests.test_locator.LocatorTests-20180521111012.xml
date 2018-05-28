@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="tests.test_locator.LocatorTests-20180521111012" tests="14" time="0.001">
+	<testcase classname="tests.test_locator.LocatorTests" name="test_find_file" time="0.000"/>
+	<testcase classname="tests.test_locator.LocatorTests" name="test_find_name" time="0.000"/>
+	<testcase classname="tests.test_locator.LocatorTests" name="test_find_name__non_existent_template_fails" time="0.000"/>
+	<testcase classname="tests.test_locator.LocatorTests" name="test_find_name__precedence" time="0.000"/>
+	<testcase classname="tests.test_locator.LocatorTests" name="test_find_name__using_list_of_paths" time="0.000"/>
+	<testcase classname="tests.test_locator.LocatorTests" name="test_find_object" time="0.000"/>
+	<testcase classname="tests.test_locator.LocatorTests" name="test_find_object__none_file_name" time="0.000"/>
+	<testcase classname="tests.test_locator.LocatorTests" name="test_find_object__none_object_directory" time="0.000"/>
+	<testcase classname="tests.test_locator.LocatorTests" name="test_get_object_directory" time="0.000"/>
+	<testcase classname="tests.test_locator.LocatorTests" name="test_get_object_directory__not_hasattr_module" time="0.000"/>
+	<testcase classname="tests.test_locator.LocatorTests" name="test_init__extension" time="0.000"/>
+	<testcase classname="tests.test_locator.LocatorTests" name="test_make_file_name" time="0.000"/>
+	<testcase classname="tests.test_locator.LocatorTests" name="test_make_file_name__template_extension_argument" time="0.000"/>
+	<testcase classname="tests.test_locator.LocatorTests" name="test_make_template_name" time="0.000"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

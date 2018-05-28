@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="tests.test_specloader.TemplateSpecTests-20180521111012" tests="10" time="0.000">
+	<testcase classname="tests.test_specloader.TemplateSpecTests" name="test_find__with_directory" time="0.000"/>
+	<testcase classname="tests.test_specloader.TemplateSpecTests" name="test_find__without_directory" time="0.000"/>
+	<testcase classname="tests.test_specloader.TemplateSpecTests" name="test_find_relative" time="0.000"/>
+	<testcase classname="tests.test_specloader.TemplateSpecTests" name="test_find_relative__template_extension" time="0.000"/>
+	<testcase classname="tests.test_specloader.TemplateSpecTests" name="test_find_relative__template_name" time="0.000"/>
+	<testcase classname="tests.test_specloader.TemplateSpecTests" name="test_find_relative__template_rel_directory" time="0.000"/>
+	<testcase classname="tests.test_specloader.TemplateSpecTests" name="test_find_relative__template_rel_path__file_name_only" time="0.000"/>
+	<testcase classname="tests.test_specloader.TemplateSpecTests" name="test_find_relative__template_rel_path__file_name_with_directory" time="0.000"/>
+	<testcase classname="tests.test_specloader.TemplateSpecTests" name="test_get_template" time="0.000"/>
+	<testcase classname="tests.test_specloader.TemplateSpecTests" name="test_get_template__template_encoding" time="0.000"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

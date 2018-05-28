@@ -1,0 +1,471 @@
+<?xml version="1.0" ?>
+<testsuite errors="14" failures="0" name="unittest.loader._FailedTest-20180528125027" tests="14" time="0.001">
+	<testcase classname="unittest.loader._FailedTest" name="test" time="0.000">
+		<error message="Failed to import test module: commands.test
+Traceback (most recent call last):
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 369, in _get_module_from_name
+    __import__(name)
+  File &quot;/home/ubuntu/case2/pystache/pystache/commands/test.py&quot;, line 10, in &lt;module&gt;
+    from pystache.tests.main import main as run_tests
+  File &quot;/home/ubuntu/case2/pystache/pystache/__init__.py&quot;, line 9, in &lt;module&gt;
+    from pystache.init import parse, render, Renderer, TemplateSpec
+  File &quot;/home/ubuntu/case2/pystache/pystache/init.py&quot;, line 8, in &lt;module&gt;
+    from pystache.parser import parse
+  File &quot;/home/ubuntu/case2/pystache/pystache/parser.py&quot;, line 15
+    NON_BLANK_RE = re.compile(ur'^(.)', re.M)
+                                     ^
+SyntaxError: invalid syntax
+" type="ImportError">
+<![CDATA[ImportError: Failed to import test module: commands.test
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 369, in _get_module_from_name
+    __import__(name)
+  File "/home/ubuntu/case2/pystache/pystache/commands/test.py", line 10, in <module>
+    from pystache.tests.main import main as run_tests
+  File "/home/ubuntu/case2/pystache/pystache/__init__.py", line 9, in <module>
+    from pystache.init import parse, render, Renderer, TemplateSpec
+  File "/home/ubuntu/case2/pystache/pystache/init.py", line 8, in <module>
+    from pystache.parser import parse
+  File "/home/ubuntu/case2/pystache/pystache/parser.py", line 15
+    NON_BLANK_RE = re.compile(ur'^(.)', re.M)
+                                     ^
+SyntaxError: invalid syntax
+
+]]>		</error>
+	</testcase>
+	<testcase classname="unittest.loader._FailedTest" name="test___init__" time="0.000">
+		<error message="Failed to import test module: tests.test___init__
+Traceback (most recent call last):
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 369, in _get_module_from_name
+    __import__(name)
+  File &quot;/home/ubuntu/case2/pystache/pystache/tests/test___init__.py&quot;, line 10, in &lt;module&gt;
+    from pystache import *
+  File &quot;/home/ubuntu/case2/pystache/pystache/__init__.py&quot;, line 9, in &lt;module&gt;
+    from pystache.init import parse, render, Renderer, TemplateSpec
+  File &quot;/home/ubuntu/case2/pystache/pystache/init.py&quot;, line 8, in &lt;module&gt;
+    from pystache.parser import parse
+  File &quot;/home/ubuntu/case2/pystache/pystache/parser.py&quot;, line 15
+    NON_BLANK_RE = re.compile(ur'^(.)', re.M)
+                                     ^
+SyntaxError: invalid syntax
+" type="ImportError">
+<![CDATA[ImportError: Failed to import test module: tests.test___init__
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 369, in _get_module_from_name
+    __import__(name)
+  File "/home/ubuntu/case2/pystache/pystache/tests/test___init__.py", line 10, in <module>
+    from pystache import *
+  File "/home/ubuntu/case2/pystache/pystache/__init__.py", line 9, in <module>
+    from pystache.init import parse, render, Renderer, TemplateSpec
+  File "/home/ubuntu/case2/pystache/pystache/init.py", line 8, in <module>
+    from pystache.parser import parse
+  File "/home/ubuntu/case2/pystache/pystache/parser.py", line 15
+    NON_BLANK_RE = re.compile(ur'^(.)', re.M)
+                                     ^
+SyntaxError: invalid syntax
+
+]]>		</error>
+	</testcase>
+	<testcase classname="unittest.loader._FailedTest" name="test_commands" time="0.000">
+		<error message="Failed to import test module: tests.test_commands
+Traceback (most recent call last):
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 369, in _get_module_from_name
+    __import__(name)
+  File &quot;/home/ubuntu/case2/pystache/pystache/tests/test_commands.py&quot;, line 11, in &lt;module&gt;
+    from pystache.commands.render import main
+  File &quot;/home/ubuntu/case2/pystache/pystache/__init__.py&quot;, line 9, in &lt;module&gt;
+    from pystache.init import parse, render, Renderer, TemplateSpec
+  File &quot;/home/ubuntu/case2/pystache/pystache/init.py&quot;, line 8, in &lt;module&gt;
+    from pystache.parser import parse
+  File &quot;/home/ubuntu/case2/pystache/pystache/parser.py&quot;, line 15
+    NON_BLANK_RE = re.compile(ur'^(.)', re.M)
+                                     ^
+SyntaxError: invalid syntax
+" type="ImportError">
+<![CDATA[ImportError: Failed to import test module: tests.test_commands
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 369, in _get_module_from_name
+    __import__(name)
+  File "/home/ubuntu/case2/pystache/pystache/tests/test_commands.py", line 11, in <module>
+    from pystache.commands.render import main
+  File "/home/ubuntu/case2/pystache/pystache/__init__.py", line 9, in <module>
+    from pystache.init import parse, render, Renderer, TemplateSpec
+  File "/home/ubuntu/case2/pystache/pystache/init.py", line 8, in <module>
+    from pystache.parser import parse
+  File "/home/ubuntu/case2/pystache/pystache/parser.py", line 15
+    NON_BLANK_RE = re.compile(ur'^(.)', re.M)
+                                     ^
+SyntaxError: invalid syntax
+
+]]>		</error>
+	</testcase>
+	<testcase classname="unittest.loader._FailedTest" name="test_context" time="0.000">
+		<error message="Failed to import test module: tests.test_context
+Traceback (most recent call last):
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 369, in _get_module_from_name
+    __import__(name)
+  File &quot;/home/ubuntu/case2/pystache/pystache/tests/test_context.py&quot;, line 11, in &lt;module&gt;
+    from pystache.context import _NOT_FOUND, _get_value, KeyNotFoundError, ContextStack
+  File &quot;/home/ubuntu/case2/pystache/pystache/__init__.py&quot;, line 9, in &lt;module&gt;
+    from pystache.init import parse, render, Renderer, TemplateSpec
+  File &quot;/home/ubuntu/case2/pystache/pystache/init.py&quot;, line 8, in &lt;module&gt;
+    from pystache.parser import parse
+  File &quot;/home/ubuntu/case2/pystache/pystache/parser.py&quot;, line 15
+    NON_BLANK_RE = re.compile(ur'^(.)', re.M)
+                                     ^
+SyntaxError: invalid syntax
+" type="ImportError">
+<![CDATA[ImportError: Failed to import test module: tests.test_context
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 369, in _get_module_from_name
+    __import__(name)
+  File "/home/ubuntu/case2/pystache/pystache/tests/test_context.py", line 11, in <module>
+    from pystache.context import _NOT_FOUND, _get_value, KeyNotFoundError, ContextStack
+  File "/home/ubuntu/case2/pystache/pystache/__init__.py", line 9, in <module>
+    from pystache.init import parse, render, Renderer, TemplateSpec
+  File "/home/ubuntu/case2/pystache/pystache/init.py", line 8, in <module>
+    from pystache.parser import parse
+  File "/home/ubuntu/case2/pystache/pystache/parser.py", line 15
+    NON_BLANK_RE = re.compile(ur'^(.)', re.M)
+                                     ^
+SyntaxError: invalid syntax
+
+]]>		</error>
+	</testcase>
+	<testcase classname="unittest.loader._FailedTest" name="test_defaults" time="0.000">
+		<error message="Failed to import test module: tests.test_defaults
+Traceback (most recent call last):
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 369, in _get_module_from_name
+    __import__(name)
+  File &quot;/home/ubuntu/case2/pystache/pystache/tests/test_defaults.py&quot;, line 10, in &lt;module&gt;
+    import pystache
+  File &quot;/home/ubuntu/case2/pystache/pystache/__init__.py&quot;, line 9, in &lt;module&gt;
+    from pystache.init import parse, render, Renderer, TemplateSpec
+  File &quot;/home/ubuntu/case2/pystache/pystache/init.py&quot;, line 8, in &lt;module&gt;
+    from pystache.parser import parse
+  File &quot;/home/ubuntu/case2/pystache/pystache/parser.py&quot;, line 15
+    NON_BLANK_RE = re.compile(ur'^(.)', re.M)
+                                     ^
+SyntaxError: invalid syntax
+" type="ImportError">
+<![CDATA[ImportError: Failed to import test module: tests.test_defaults
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 369, in _get_module_from_name
+    __import__(name)
+  File "/home/ubuntu/case2/pystache/pystache/tests/test_defaults.py", line 10, in <module>
+    import pystache
+  File "/home/ubuntu/case2/pystache/pystache/__init__.py", line 9, in <module>
+    from pystache.init import parse, render, Renderer, TemplateSpec
+  File "/home/ubuntu/case2/pystache/pystache/init.py", line 8, in <module>
+    from pystache.parser import parse
+  File "/home/ubuntu/case2/pystache/pystache/parser.py", line 15
+    NON_BLANK_RE = re.compile(ur'^(.)', re.M)
+                                     ^
+SyntaxError: invalid syntax
+
+]]>		</error>
+	</testcase>
+	<testcase classname="unittest.loader._FailedTest" name="test_examples" time="0.000">
+		<error message="Failed to import test module: tests.test_examples
+Traceback (most recent call last):
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 369, in _get_module_from_name
+    __import__(name)
+  File &quot;/home/ubuntu/case2/pystache/pystache/tests/test_examples.py&quot;, line 10, in &lt;module&gt;
+    from examples.comments import Comments
+ModuleNotFoundError: No module named 'examples'
+" type="ImportError">
+<![CDATA[ImportError: Failed to import test module: tests.test_examples
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 369, in _get_module_from_name
+    __import__(name)
+  File "/home/ubuntu/case2/pystache/pystache/tests/test_examples.py", line 10, in <module>
+    from examples.comments import Comments
+ModuleNotFoundError: No module named 'examples'
+
+]]>		</error>
+	</testcase>
+	<testcase classname="unittest.loader._FailedTest" name="test_loader" time="0.000">
+		<error message="Failed to import test module: tests.test_loader
+Traceback (most recent call last):
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 369, in _get_module_from_name
+    __import__(name)
+  File &quot;/home/ubuntu/case2/pystache/pystache/tests/test_loader.py&quot;, line 12, in &lt;module&gt;
+    from pystache.tests.common import AssertStringMixin, DATA_DIR, SetupDefaults
+  File &quot;/home/ubuntu/case2/pystache/pystache/__init__.py&quot;, line 9, in &lt;module&gt;
+    from pystache.init import parse, render, Renderer, TemplateSpec
+  File &quot;/home/ubuntu/case2/pystache/pystache/init.py&quot;, line 8, in &lt;module&gt;
+    from pystache.parser import parse
+  File &quot;/home/ubuntu/case2/pystache/pystache/parser.py&quot;, line 15
+    NON_BLANK_RE = re.compile(ur'^(.)', re.M)
+                                     ^
+SyntaxError: invalid syntax
+" type="ImportError">
+<![CDATA[ImportError: Failed to import test module: tests.test_loader
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 369, in _get_module_from_name
+    __import__(name)
+  File "/home/ubuntu/case2/pystache/pystache/tests/test_loader.py", line 12, in <module>
+    from pystache.tests.common import AssertStringMixin, DATA_DIR, SetupDefaults
+  File "/home/ubuntu/case2/pystache/pystache/__init__.py", line 9, in <module>
+    from pystache.init import parse, render, Renderer, TemplateSpec
+  File "/home/ubuntu/case2/pystache/pystache/init.py", line 8, in <module>
+    from pystache.parser import parse
+  File "/home/ubuntu/case2/pystache/pystache/parser.py", line 15
+    NON_BLANK_RE = re.compile(ur'^(.)', re.M)
+                                     ^
+SyntaxError: invalid syntax
+
+]]>		</error>
+	</testcase>
+	<testcase classname="unittest.loader._FailedTest" name="test_locator" time="0.000">
+		<error message="Failed to import test module: tests.test_locator
+Traceback (most recent call last):
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 369, in _get_module_from_name
+    __import__(name)
+  File &quot;/home/ubuntu/case2/pystache/pystache/tests/test_locator.py&quot;, line 14, in &lt;module&gt;
+    from pystache.common import TemplateNotFoundError
+  File &quot;/home/ubuntu/case2/pystache/pystache/__init__.py&quot;, line 9, in &lt;module&gt;
+    from pystache.init import parse, render, Renderer, TemplateSpec
+  File &quot;/home/ubuntu/case2/pystache/pystache/init.py&quot;, line 8, in &lt;module&gt;
+    from pystache.parser import parse
+  File &quot;/home/ubuntu/case2/pystache/pystache/parser.py&quot;, line 15
+    NON_BLANK_RE = re.compile(ur'^(.)', re.M)
+                                     ^
+SyntaxError: invalid syntax
+" type="ImportError">
+<![CDATA[ImportError: Failed to import test module: tests.test_locator
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 369, in _get_module_from_name
+    __import__(name)
+  File "/home/ubuntu/case2/pystache/pystache/tests/test_locator.py", line 14, in <module>
+    from pystache.common import TemplateNotFoundError
+  File "/home/ubuntu/case2/pystache/pystache/__init__.py", line 9, in <module>
+    from pystache.init import parse, render, Renderer, TemplateSpec
+  File "/home/ubuntu/case2/pystache/pystache/init.py", line 8, in <module>
+    from pystache.parser import parse
+  File "/home/ubuntu/case2/pystache/pystache/parser.py", line 15
+    NON_BLANK_RE = re.compile(ur'^(.)', re.M)
+                                     ^
+SyntaxError: invalid syntax
+
+]]>		</error>
+	</testcase>
+	<testcase classname="unittest.loader._FailedTest" name="test_parser" time="0.000">
+		<error message="Failed to import test module: tests.test_parser
+Traceback (most recent call last):
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 369, in _get_module_from_name
+    __import__(name)
+  File &quot;/home/ubuntu/case2/pystache/pystache/tests/test_parser.py&quot;, line 10, in &lt;module&gt;
+    from pystache.defaults import DELIMITERS
+  File &quot;/home/ubuntu/case2/pystache/pystache/__init__.py&quot;, line 9, in &lt;module&gt;
+    from pystache.init import parse, render, Renderer, TemplateSpec
+  File &quot;/home/ubuntu/case2/pystache/pystache/init.py&quot;, line 8, in &lt;module&gt;
+    from pystache.parser import parse
+  File &quot;/home/ubuntu/case2/pystache/pystache/parser.py&quot;, line 15
+    NON_BLANK_RE = re.compile(ur'^(.)', re.M)
+                                     ^
+SyntaxError: invalid syntax
+" type="ImportError">
+<![CDATA[ImportError: Failed to import test module: tests.test_parser
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 369, in _get_module_from_name
+    __import__(name)
+  File "/home/ubuntu/case2/pystache/pystache/tests/test_parser.py", line 10, in <module>
+    from pystache.defaults import DELIMITERS
+  File "/home/ubuntu/case2/pystache/pystache/__init__.py", line 9, in <module>
+    from pystache.init import parse, render, Renderer, TemplateSpec
+  File "/home/ubuntu/case2/pystache/pystache/init.py", line 8, in <module>
+    from pystache.parser import parse
+  File "/home/ubuntu/case2/pystache/pystache/parser.py", line 15
+    NON_BLANK_RE = re.compile(ur'^(.)', re.M)
+                                     ^
+SyntaxError: invalid syntax
+
+]]>		</error>
+	</testcase>
+	<testcase classname="unittest.loader._FailedTest" name="test_pystache" time="0.000">
+		<error message="Failed to import test module: tests.test_pystache
+Traceback (most recent call last):
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 369, in _get_module_from_name
+    __import__(name)
+  File &quot;/home/ubuntu/case2/pystache/pystache/tests/test_pystache.py&quot;, line 5, in &lt;module&gt;
+    import pystache
+  File &quot;/home/ubuntu/case2/pystache/pystache/__init__.py&quot;, line 9, in &lt;module&gt;
+    from pystache.init import parse, render, Renderer, TemplateSpec
+  File &quot;/home/ubuntu/case2/pystache/pystache/init.py&quot;, line 8, in &lt;module&gt;
+    from pystache.parser import parse
+  File &quot;/home/ubuntu/case2/pystache/pystache/parser.py&quot;, line 15
+    NON_BLANK_RE = re.compile(ur'^(.)', re.M)
+                                     ^
+SyntaxError: invalid syntax
+" type="ImportError">
+<![CDATA[ImportError: Failed to import test module: tests.test_pystache
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 369, in _get_module_from_name
+    __import__(name)
+  File "/home/ubuntu/case2/pystache/pystache/tests/test_pystache.py", line 5, in <module>
+    import pystache
+  File "/home/ubuntu/case2/pystache/pystache/__init__.py", line 9, in <module>
+    from pystache.init import parse, render, Renderer, TemplateSpec
+  File "/home/ubuntu/case2/pystache/pystache/init.py", line 8, in <module>
+    from pystache.parser import parse
+  File "/home/ubuntu/case2/pystache/pystache/parser.py", line 15
+    NON_BLANK_RE = re.compile(ur'^(.)', re.M)
+                                     ^
+SyntaxError: invalid syntax
+
+]]>		</error>
+	</testcase>
+	<testcase classname="unittest.loader._FailedTest" name="test_renderengine" time="0.000">
+		<error message="Failed to import test module: tests.test_renderengine
+Traceback (most recent call last):
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 369, in _get_module_from_name
+    __import__(name)
+  File &quot;/home/ubuntu/case2/pystache/pystache/tests/test_renderengine.py&quot;, line 443
+    except ParsingError, err:
+                       ^
+SyntaxError: invalid syntax
+" type="ImportError">
+<![CDATA[ImportError: Failed to import test module: tests.test_renderengine
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 369, in _get_module_from_name
+    __import__(name)
+  File "/home/ubuntu/case2/pystache/pystache/tests/test_renderengine.py", line 443
+    except ParsingError, err:
+                       ^
+SyntaxError: invalid syntax
+
+]]>		</error>
+	</testcase>
+	<testcase classname="unittest.loader._FailedTest" name="test_renderer" time="0.000">
+		<error message="Failed to import test module: tests.test_renderer
+Traceback (most recent call last):
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 369, in _get_module_from_name
+    __import__(name)
+  File &quot;/home/ubuntu/case2/pystache/pystache/tests/test_renderer.py&quot;, line 13, in &lt;module&gt;
+    from examples.simple import Simple
+ModuleNotFoundError: No module named 'examples'
+" type="ImportError">
+<![CDATA[ImportError: Failed to import test module: tests.test_renderer
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 369, in _get_module_from_name
+    __import__(name)
+  File "/home/ubuntu/case2/pystache/pystache/tests/test_renderer.py", line 13, in <module>
+    from examples.simple import Simple
+ModuleNotFoundError: No module named 'examples'
+
+]]>		</error>
+	</testcase>
+	<testcase classname="unittest.loader._FailedTest" name="test_simple" time="0.000">
+		<error message="Failed to import test module: tests.test_simple
+Traceback (most recent call last):
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 369, in _get_module_from_name
+    __import__(name)
+  File &quot;/home/ubuntu/case2/pystache/pystache/tests/test_simple.py&quot;, line 3, in &lt;module&gt;
+    import pystache
+  File &quot;/home/ubuntu/case2/pystache/pystache/__init__.py&quot;, line 9, in &lt;module&gt;
+    from pystache.init import parse, render, Renderer, TemplateSpec
+  File &quot;/home/ubuntu/case2/pystache/pystache/init.py&quot;, line 8, in &lt;module&gt;
+    from pystache.parser import parse
+  File &quot;/home/ubuntu/case2/pystache/pystache/parser.py&quot;, line 15
+    NON_BLANK_RE = re.compile(ur'^(.)', re.M)
+                                     ^
+SyntaxError: invalid syntax
+" type="ImportError">
+<![CDATA[ImportError: Failed to import test module: tests.test_simple
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 369, in _get_module_from_name
+    __import__(name)
+  File "/home/ubuntu/case2/pystache/pystache/tests/test_simple.py", line 3, in <module>
+    import pystache
+  File "/home/ubuntu/case2/pystache/pystache/__init__.py", line 9, in <module>
+    from pystache.init import parse, render, Renderer, TemplateSpec
+  File "/home/ubuntu/case2/pystache/pystache/init.py", line 8, in <module>
+    from pystache.parser import parse
+  File "/home/ubuntu/case2/pystache/pystache/parser.py", line 15
+    NON_BLANK_RE = re.compile(ur'^(.)', re.M)
+                                     ^
+SyntaxError: invalid syntax
+
+]]>		</error>
+	</testcase>
+	<testcase classname="unittest.loader._FailedTest" name="test_specloader" time="0.000">
+		<error message="Failed to import test module: tests.test_specloader
+Traceback (most recent call last):
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File &quot;/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 369, in _get_module_from_name
+    __import__(name)
+  File &quot;/home/ubuntu/case2/pystache/pystache/tests/test_specloader.py&quot;, line 12, in &lt;module&gt;
+    import examples
+ModuleNotFoundError: No module named 'examples'
+" type="ImportError">
+<![CDATA[ImportError: Failed to import test module: tests.test_specloader
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/home/ubuntu/anaconda3/lib/python3.6/unittest/loader.py", line 369, in _get_module_from_name
+    __import__(name)
+  File "/home/ubuntu/case2/pystache/pystache/tests/test_specloader.py", line 12, in <module>
+    import examples
+ModuleNotFoundError: No module named 'examples'
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

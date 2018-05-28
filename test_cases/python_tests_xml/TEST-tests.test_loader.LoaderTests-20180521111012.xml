@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="tests.test_loader.LoaderTests-20180521111012" tests="17" time="0.001">
+	<testcase classname="tests.test_loader.LoaderTests" name="test_init__extension" time="0.000"/>
+	<testcase classname="tests.test_loader.LoaderTests" name="test_init__extension__default" time="0.000"/>
+	<testcase classname="tests.test_loader.LoaderTests" name="test_init__file_encoding" time="0.000"/>
+	<testcase classname="tests.test_loader.LoaderTests" name="test_init__file_encoding__default" time="0.000"/>
+	<testcase classname="tests.test_loader.LoaderTests" name="test_init__to_unicode" time="0.000"/>
+	<testcase classname="tests.test_loader.LoaderTests" name="test_init__to_unicode__default" time="0.000"/>
+	<testcase classname="tests.test_loader.LoaderTests" name="test_load_file" time="0.000"/>
+	<testcase classname="tests.test_loader.LoaderTests" name="test_load_name" time="0.000"/>
+	<testcase classname="tests.test_loader.LoaderTests" name="test_read" time="0.000"/>
+	<testcase classname="tests.test_loader.LoaderTests" name="test_read__encoding__argument" time="0.000"/>
+	<testcase classname="tests.test_loader.LoaderTests" name="test_read__file_encoding__attribute" time="0.000"/>
+	<testcase classname="tests.test_loader.LoaderTests" name="test_read__to_unicode__attribute" time="0.000"/>
+	<testcase classname="tests.test_loader.LoaderTests" name="test_unicode__basic__input_str" time="0.000"/>
+	<testcase classname="tests.test_loader.LoaderTests" name="test_unicode__basic__input_unicode" time="0.000"/>
+	<testcase classname="tests.test_loader.LoaderTests" name="test_unicode__basic__input_unicode_subclass" time="0.000"/>
+	<testcase classname="tests.test_loader.LoaderTests" name="test_unicode__encoding_argument" time="0.000"/>
+	<testcase classname="tests.test_loader.LoaderTests" name="test_unicode__to_unicode__attribute" time="0.000"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

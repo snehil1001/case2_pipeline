@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="tests.test_parser.RegularExpressionTestCase-20180521111012" tests="1" time="0.000">
+	<testcase classname="tests.test_parser.RegularExpressionTestCase" name="test_re" time="0.000"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

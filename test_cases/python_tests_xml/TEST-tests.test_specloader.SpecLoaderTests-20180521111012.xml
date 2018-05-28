@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="tests.test_specloader.SpecLoaderTests-20180521111012" tests="8" time="0.000">
+	<testcase classname="tests.test_specloader.SpecLoaderTests" name="test_find__template_path" time="0.000"/>
+	<testcase classname="tests.test_specloader.SpecLoaderTests" name="test_init__defaults" time="0.000"/>
+	<testcase classname="tests.test_specloader.SpecLoaderTests" name="test_init__loader" time="0.000"/>
+	<testcase classname="tests.test_specloader.SpecLoaderTests" name="test_load__template__correct_loader" time="0.000"/>
+	<testcase classname="tests.test_specloader.SpecLoaderTests" name="test_load__template__type_str" time="0.000"/>
+	<testcase classname="tests.test_specloader.SpecLoaderTests" name="test_load__template__type_unicode" time="0.000"/>
+	<testcase classname="tests.test_specloader.SpecLoaderTests" name="test_load__template__unicode_non_ascii" time="0.000"/>
+	<testcase classname="tests.test_specloader.SpecLoaderTests" name="test_load__template__with_template_encoding" time="0.000"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

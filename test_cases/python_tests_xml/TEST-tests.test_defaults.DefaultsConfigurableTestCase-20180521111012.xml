@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="tests.test_defaults.DefaultsConfigurableTestCase-20180521111012" tests="3" time="0.001">
+	<testcase classname="tests.test_defaults.DefaultsConfigurableTestCase" name="test_delimiters" time="0.001"/>
+	<testcase classname="tests.test_defaults.DefaultsConfigurableTestCase" name="test_missing_tags" time="0.000"/>
+	<testcase classname="tests.test_defaults.DefaultsConfigurableTestCase" name="test_tag_escape" time="0.000"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
