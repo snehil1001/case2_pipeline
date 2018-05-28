@@ -6,7 +6,7 @@ pipeline {
                 
                 echo 'running dockerfile'
                 sh 'make check || true' 
-                junit '**/target/*.xml'
+                junit 'python_tests_xml/*.xml'
             }
         }
     }
