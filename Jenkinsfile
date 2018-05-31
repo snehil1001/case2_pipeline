@@ -14,12 +14,9 @@ pipeline {
                 echo 'running dockerfile'
                 sh 'make check || true'
                 junit 'python_tests_xml/*.xml'
-                sh "npm run lint"
-                step([$class: 'CheckStylePublisher',
-                pattern: '**/eslint.xml',
-                unstableTotalAll: '0',
-                usePreviousBuildAsReference: true])
-                
+                #!/bin/bash
+                pylint --rcfile=pylint.cfg $(find . -maxdepth 4 -name "*.py") --msg-template="{path}:{line}: [{msg_id}({symbol}), {obj}] {msg}"> pylint.log
+                PyLint '**/pylint.log'
             }
         }
     }
