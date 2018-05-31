@@ -3,7 +3,6 @@ pipeline {
     stages {
         stage('Checkout'){
 	    steps{
-                sh 'rm -r /var/lib/jenkins/workspace/case2_docker_master*' 
 	        checkout scm 
 	       	}
 	    }
