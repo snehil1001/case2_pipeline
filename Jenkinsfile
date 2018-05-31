@@ -1,11 +1,16 @@
 pipeline {
-	agent { dockerfile true }
+        agent { dockerfile true }
     stages {
+	    stage('Checkout'){
+		    steps{
+			  checkout scm 
+			}
+		    }
+		     
         stage('Test') {
             steps {
-                checkout scm 
                 echo 'running dockerfile'
-                sh 'make check || true' 
+                sh 'make check || true'
                 junit 'python_tests_xml/*.xml'
             }
         }
