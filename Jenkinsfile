@@ -1,5 +1,5 @@
 pipeline {
-        agent { dockerfile true }
+        agent {label 'none'}
     stages {
         stage('Checkout'){
 	    steps{
@@ -7,7 +7,8 @@ pipeline {
 	       	}
 	    }
 		     
-        stage('Test') {
+        stage('Docker') {
+		    agent  { dockerfile true }
             steps {
                 echo 'running dockerfile'
                 sh 'make check || true'
@@ -16,3 +17,4 @@ pipeline {
         }
     }
 }
+
