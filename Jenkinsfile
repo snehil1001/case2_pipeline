@@ -14,6 +14,12 @@ pipeline {
                 echo 'running dockerfile'
                 sh 'make check || true'
                 junit 'python_tests_xml/*.xml'
+                sh "npm run lint"
+                step([$class: 'CheckStylePublisher',
+                pattern: '**/eslint.xml',
+                unstableTotalAll: '0',
+                usePreviousBuildAsReference: true])
+                
             }
         }
     }
