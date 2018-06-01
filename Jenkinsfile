@@ -19,10 +19,10 @@ pipeline {
                 step([
                       $class                     : 'WarningsPublisher',
                       parserConfigurations       : [[
-                                       parserName: 'PYLint',
-                                       pattern   : 'pylint.log'
+                                                       parserName: 'PYLint',
+                                                       pattern   : 'pylint.log'
                                                    ]],
-                                                 : '0',
+                             unstableTotalAll    : '0',
                       usePreviousBuildAsReference: true
                     ])
                  }
