@@ -1,0 +1,15 @@
+---
+-   hosts: localhost
+    vars_files:
+        - vars.yml
+    gather_facts: false
+    sudo: true
+
+    tasks:
+        - name: Pull sources from the repository.
+          git: repo={{repo_url}} dest={{project_root}} version=master
+          notify:
+            - restart web server
+
+    handlers:
+      - include : handlers.yml
