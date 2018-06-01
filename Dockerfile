@@ -5,6 +5,7 @@ RUN pip install pystrich
 RUN pip install xmlrunner
 RUN pip install pylint
 RUN pip install pep8
+RUN pip install pycodestyle
 CMD [ "python", "./randomgen.py" ]
 CMD [ "python", "./test.py" ]
 
