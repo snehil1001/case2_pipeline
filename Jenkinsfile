@@ -15,8 +15,7 @@ pipeline {
                 echo 'running dockerfile'
                 sh 'make check || true'
                 junit 'python_tests_xml/*.xml'
-                sh 'pep8 $(find . -maxdepth 1  -name "*.py") > pep8.xml'
-                
+                sh 'pycodestyle  $(find . -maxdepth 1  -name "*.py") > pycodestyle.xml'
                  }
         }
     }
