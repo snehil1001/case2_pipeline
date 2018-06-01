@@ -15,8 +15,8 @@ pipeline {
                 echo 'running dockerfile'
                 sh 'make check || true'
                 junit 'python_tests_xml/*.xml'
-                sh 'pycodestyle  $(find . -maxdepth 1  -name "*.py") > pycodestyle.xml'
-                ansiblePlaybook credentialsId: 'private_key', inventory: 'inventories/a/hosts', playbook: 'my_playbook.yml'
+                sh 'pycodestyle  $(find . -maxdepth 1  -name "*.py") > pycodestyle.xml | tee pycodestyle.xml'
+
                  }
         }
     }
