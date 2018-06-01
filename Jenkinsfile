@@ -15,7 +15,7 @@ pipeline {
                 echo 'running dockerfile'
                 junit 'python_tests_xml/*.xml'
                 sh 'find . -maxdepth 1  -name "*.py" |xargs pycodestyle | tee pycodestyle.log'
-                sh 'ansible-playbook my_playbook.yml'
+                sh 'ansible-playbook deploy.yml'
 
                  }
         }
