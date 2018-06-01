@@ -1,5 +1,3 @@
-envs:
-    dev: 
-      app_server: 35.168.58.34
-      hosts:
-         - 35.168.58.34
+- hosts: localhost
+  connection: local
+  gather_facts: no
