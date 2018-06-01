@@ -4,6 +4,7 @@ ADD test.py /
 RUN pip install pystrich
 RUN pip install xmlrunner
 RUN pip install pylint
+RUN pip install pep8
 CMD [ "python", "./randomgen.py" ]
 CMD [ "python", "./test.py" ]
 
