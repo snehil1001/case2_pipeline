@@ -4,7 +4,7 @@
         - vars.yml
     gather_facts: false
     become: yes
-    become_user: root
+    become_user: ubuntu
 
     tasks:
         - name: Pull sources from the repository.
