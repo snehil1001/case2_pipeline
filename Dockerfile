@@ -1,5 +1,5 @@
 FROM python:2
-RUN /bin/bash -c "cat 'jenkins:x:112:116:Jenkins,,,:/var/lib/jenkins:/bin/bash' >> /etc/passwd"
+RUN /bin/bash -c "echo 'jenkins:x:112:116:Jenkins,,,:/var/lib/jenkins:/bin/bash' >> /etc/passwd"
 USER Jenkins
 ADD test_cases  /
 ADD test.py /
