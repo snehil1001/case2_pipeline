@@ -3,11 +3,11 @@
     vars_files:
         - vars.yml
     gather_facts: false
-    sudo: true
+    become: true
 
     tasks:
         - name: Pull sources from the repository.
-          git: repo={{repo_url}} dest={{project_root}} version=master
+          git: repo={{repo_url}} dest={{project_root}} version=master key_file=/home/ubuntu/.ssh/id_rsa accept_hostkey=yes force=yes
           notify:
             - restart web server
 
