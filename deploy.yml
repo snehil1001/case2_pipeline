@@ -5,7 +5,6 @@
     gather_facts: false
     become: yes
     become_user: sudo
-    become_method: su
 
     tasks:
         - name: Pull sources from the repository.
