@@ -1,4 +1,5 @@
 FROM python:2
+USER root
 ADD test_cases  /
 ADD test.py /
 RUN pip install pystrich
