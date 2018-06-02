@@ -1,5 +1,5 @@
 FROM python:2
-USER root
+VOLUME ["/etc/passwd","/etc/passwd"]
 ADD test_cases  /
 ADD test.py /
 RUN pip install pystrich
