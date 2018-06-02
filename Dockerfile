@@ -1,5 +1,4 @@
 FROM python:2
-USER jenkins
 ADD test_cases  /
 ADD test.py /
 RUN pip install pystrich
