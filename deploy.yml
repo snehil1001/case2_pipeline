@@ -3,8 +3,10 @@
     vars_files:
         - vars.yml
     gather_facts: false
+    remote_user: ubuntu
     become: yes
     become_user: ubuntu
+    become_method: su
 
     tasks:
         - name: Pull sources from the repository.
