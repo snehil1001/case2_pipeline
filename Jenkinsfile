@@ -20,13 +20,7 @@ pipeline {
         stage('ansible'){
                     agent any
                     steps {
-                         sshagent (credentials: ['Git_cred']) {
-                    ansiblePlaybook(
-                         credentialsId: '44dd5241-a26e-40b7-a129-0a70b522e372',
-                         inventory: '/etc/ansible/hosts',
-                         installation: 'ansible',
-                         limit: 'localhost',
-                         playbook: '/home/ubuntu/case2/my_new_docker_build/deploy.yml',
+                       ansible-playbook -vvv /home/ubuntu/case2/my_new_docker_build/deploy.yml -i /etc/ansible/hosts -u jenkins --private-key=/home/ubuntu/.ssh/id_rsa
                 )
             }
                           }
