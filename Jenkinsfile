@@ -20,7 +20,7 @@ pipeline {
         stage('ansible'){
                     agent any
                     steps {
-                    sh '/home/ubuntu/anaconda3/bin/ansible-playbook -vvv /home/ubuntu/case2/my_new_docker_build/deploy.yml -i /etc/ansible/hosts --private-key=/home/ubuntu/.ssh/id_rsa'
+                    sh '/home/ubuntu/anaconda3/bin/ansible-playbook -vvv /home/ubuntu/case2/my_new_docker_build/deploy.yml -i /etc/ansible/hosts -u jenkins --private-key=/home/ubuntu/.ssh/id_rsa'
                 
                           }
                         }
