@@ -20,7 +20,15 @@ pipeline {
         stage('ansible'){
                     agent any
                     steps {
-                         sh '/home/ubuntu/anaconda3/bin/ansible-playbook deploy.yml'
+                         sshagent (credentials: ['Git_cred']) {
+                         /home/ubuntu/anaconda3/bin/ansiblePlaybook(
+                         credentialsId: 44dd5241-a26e-40b7-a129-0a70b522e372',
+                         inventory: '/etc/ansible/hosts',
+                         installation: 'ansible',
+                         limit: 'localhost',
+                         playbook: '/home/ubuntu/case2/my_new_docker_build/deploy.yml',
+                )
+            }
                           }
                }
 }
