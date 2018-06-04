@@ -20,7 +20,7 @@ pipeline {
         stage('ansible'){
                     agent any
                     steps {
-                         sh 'ansible-playbook deploy.yml'
+                         sh '/home/ubuntu/anaconda3/bin/ansible-playbook deploy.yml'
                           }
                }
 }
