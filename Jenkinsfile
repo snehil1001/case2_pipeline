@@ -21,7 +21,7 @@ pipeline {
                     agent any
                     steps {
                          sshagent (credentials: ['Git_cred']) {
-                         /home/ubuntu/anaconda3/bin/ansiblePlaybook(
+                    ansiblePlaybook(
                          credentialsId: 44dd5241-a26e-40b7-a129-0a70b522e372',
                          inventory: '/etc/ansible/hosts',
                          installation: 'ansible',
