@@ -20,7 +20,7 @@ pipeline {
         stage('ansible'){
                     agent any
                     steps {
-                    sh '/home/ubuntu/anaconda3/bin/ansible-playbook -vvv /home/ubuntu/case2/my_new_docker_build/deploy.yml -i /etc/ansible/hosts'
+                    sh '/home/ubuntu/anaconda3/bin/ansible-playbook -vvv /home/ubuntu/case2_pipeline/deploy.yml -i /etc/ansible/hosts'
                 
                           }
                         }
