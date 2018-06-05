@@ -1,5 +1,5 @@
 app_name: PleaseDeployCase2
-repo_url: 'git@github.com:snehil1001/docker_build.git'
+repo_url: 'git@github.com:snehil1001/case2_pipeline.git'
 repo_remote: origin
 repo_version: master
 project_root: /home/ubuntu/case2/deployed
