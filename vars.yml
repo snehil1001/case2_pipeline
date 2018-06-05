@@ -1,7 +1,12 @@
 ---
 # Update this to your own settings
+<<<<<<< HEAD
 app_name: PleaseDeployCase2
 repo_url: 'git@github.com:snehil1001/docker_build.git'
+=======
+app_name: PleaseDeploy
+repo_url: 'https://github.com/snehil1001/docker_build/'
+>>>>>>> 57e5f7dfcb32e30482602d7fb4683867cb845680
 repo_remote: origin
 repo_version: master
 project_root: /home/ubuntu/case2/deployed
